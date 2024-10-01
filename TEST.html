@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>t</title>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="TESTCSS.css" >
+   <!-- <link rel="stylesheet" href="slider.css">-->
+    <style language="stylesheet">
+    
+    </style>
 </head>
-<body>
-    <h1>I</h1>
+<body class="fade">
+    <div class="hero">
+        <div class="video-container">
+           
+           <div class="bgimg">
+                <img src="WhatsApp Image 2024-09-28 at 12.31.21 PM.jpeg" width="1000" height="450">
+            </div>          
+                  
+            <div class="content">
+                <h1>ST ALOYSIUS</h1>
+                <a href="" style="margin-left: 20%;"><H3>explore</H3></a>
+    
+            </div>
+            <nav>
+                <img src="CWhatsApp Image 2024-09-28 at 8.20.01 PM.jpeg" alt="1" class="logo" height="50" width="50">
+                <ul>
+                    <li><a href="test_add.html" target="_self">ADDMITION</a></li>
+                    <li><a href="">home2</a></li>
+                    <li><a href="">home3</a></li>
+                    <li><a href="">home4</a></li>
+                    <li><a href="">home1</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+                <button class="btn">
+                    <img src="moon.png" width="20" height="20" id="abc" class="imag">
+                    <img src="sun.jpeg" width="20" height="20" id="bcd" class="imag">
+                </button>
+            </nav>
+    
+        </div>
+    </div>
+    <script>
+        let darkm = localStorage.getItem('dark-mode')
+        var abc = document.getElementById("abc")
+        abc.onclick = function(){
+            document.body.classList.toggle("dark-mode")
+            localStorage.setItem('dark-mode','true')
+        }
+        var bcd = document.getElementById("bcd")
+        bcd.onclick = function(){
+            document.body.classList.toggle("dark-mode")
+            localStorage.setItem('dark-mode','false')
+        }
+        if (localStorage.getItem('dark-mode') == 'true' ){
+            document.body.classList.toggle("dark-mode")
+
+        }
+
+    </script> 
+
+<!--  front   -->
+     <div class="writtings">
+    
+        <br><br><br><H2 align="LEFT">ABOUT ST ALOYSIUS</H2><br><br><br><br>
+          
+             
+        <H4><P >St. Aloysius HSS Thrissur is situated in Elthuruth established in 1968 by congregation of Carmelites of Mary Immaculate (CMI). St. Aloysius HSS established in 1890 is one of the oldest functioning schools in Kerala.In the serene surroundings of Elturuth, St. Aloysius Higher Secondary School stands as a monument to educational excellence and community spirit. This institution, deeply rooted in the ethos of holistic education, has been instrumental in shaping the lives of its students while contributing significantly to the educational landscape of the region.</P></H4>
+        <br><br><br><H2 align="LEFT">Gallary</H2><br><br><br><br>
+        <h4><p>School photos capture key moments in students' lives, documenting their academic journey and personal growth. Individual portraits showcase each student's development, while class photos record the collective experience of a year group. Group shots from events like sports days or school plays highlight the diverse activities that define school life. These images become cherished mementos for students, teachers, and families, preserving memories of achievements, friendships, and shared experiences. More than just pictures, school photos are lasting symbols of the educational journey, offering a visual connection to the past and celebrating the milestones of student life.</p></H4>   
+    </div>
+
+
+
+
+        
+   
+    <!--  gallary  -->
+    <div class="hero">
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <div >1 / 3</div>
+                <img src="Img 4.jpg" height="400" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+    
+            <div class="mySlides">
+                <div >2 / 3</div>
+                <img src="bevan.jpeg" height="400" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+    
+            <div class="mySlides">
+                 <div >3 / 3</div>
+                <img src="Img 4.jpg" height="400" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides">
+                <div >1 / 3</div>
+                <img src="Img 4.jpg" height="400" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+    
+            <div class="mySlides">
+                <div >2 / 3</div>
+                <img src="bevan.jpeg" height="400" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+            <div style="text-align:center">
+                 <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+    
+        </div>
+    </div>     
+     <script src="slider.js"></script>
+ <!--    contact us    -->
+     <div class="writtings"><br><br><br><br><br>
+        <H2 align="center">Contact Information </H2>
+        <p>
+            <br><br>
+            If you have any questions or need further assistance, please don't hesitate to reach out. You can contact <a href="sc_coinfo.html" >&nbsp;email&nbsp;</a> directly via email at [staloysiuselthuruth@gmail.com].
+            <br>  <br><br><br><br><br>
+        </p>
+      
+    </ul>
+
+
+     </div>
 </body>
 </html>
