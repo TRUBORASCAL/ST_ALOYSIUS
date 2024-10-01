@@ -102,7 +102,9 @@ p{
 }
 #bcd{
     cursor: pointer;
-    top: 1.0277vh;
+   margin-top: -0.4vh;
+    margin-left: -0.34vh;
+
 
 }
 .content{
