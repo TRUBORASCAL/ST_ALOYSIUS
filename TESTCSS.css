@@ -388,17 +388,17 @@ color: var(--color6);
     
     
     }
-    .content{
+     .content{
          text-align: center;
         position: relative;
-        top: -20vh;
+       bottom: 9%;
         
        
     }
     .dark-mode .content{
         text-align: center;
         position: relative;
-        top: -11vh;
+        top: -2%;
     }
     .dark-mode .content a{
         position: absolute;
